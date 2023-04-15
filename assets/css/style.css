@@ -1,0 +1,97 @@
+/*--------------------------------------------*/
+/*  BASIC SETUP*/
+/*--------------------------------------------*/
+
+*{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*--------------------------------------------*/
+/*REUSABLE COMPONENTS*/
+/*--------------------------------------------*/
+
+main{
+    padding: 0 230px;
+}
+section{
+    margin: 130px 0;
+}
+h1{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    color: #FFFFFF;
+}
+h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+h3{
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+p{
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    line-height: 26px;
+}
+
+.primary-btn{
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    outline: none;
+    border: 0;
+    height: 64px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+    padding: 20px 25px;
+    cursor: pointer;
+}
+.scondery-btn{
+    margin-top: 20px;
+    background-color: #005FAC;
+    outline: none;
+    border: 0;
+    height: 64px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 20px 25px;
+    cursor: pointer;
+}
+
+/*--------------------------------------------*/
+/*Banner section*/
+/*--------------------------------------------*/
+header{
+    background: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 640px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.banner{
+ flex-basis: 40%;
+ text-align:right;
+ padding-right: 180px;
+}
+.banner-title{
+    margin-left: 40px;
+}
+.banner-desc{
+    margin-left: 40px;
+    color: #FFFFFF;
+}
