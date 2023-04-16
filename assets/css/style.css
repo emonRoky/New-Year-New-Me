@@ -35,6 +35,12 @@ h3{
     font-size: 30px;
     color: #151414;
 }
+h5{
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 31px;
+}
 p{
     margin-top: 24px;
     font-weight: 400;
@@ -57,7 +63,7 @@ p{
     cursor: pointer;
 }
 .scondery-btn{
-    margin-top: 20px;
+    margin-top: 16px;
     background-color: #005FAC;
     outline: none;
     border: 0;
@@ -114,6 +120,9 @@ header{
     color: #16D887;
 }
 
+/*--------------------------------------------*/
+/*Plan section*/
+/*--------------------------------------------*/
 
 .plans-section{
     display: flex;
@@ -135,4 +144,73 @@ header{
 .plan-title{
     margin-top: 24px;
     margin-bottom: 16px;
+}
+/*--------------------------------------------*/
+/*Mindset section*/
+/*--------------------------------------------*/
+
+.mindset{
+    background-image: url("../images/gradient1.png"),url("../images/watch.png");
+    background-blend-mode:screen;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border-radius: 8px;
+
+}
+.mindset-container{
+    flex-basis: 50%;
+    margin-left: 65px;
+}
+.mindset-title{
+    color: #FFFFFF;
+}
+/*--------------------------------------------*/
+/*Footer*/
+/*--------------------------------------------*/
+footer{
+    background: #151414;
+}
+.footer-title{
+    color: #F8F8F8;
+}
+.footer-desc{
+    color: #F8F8F8;
+    padding-right: 200px;
+    text-align: left;
+}
+.footer-container{
+    display: flex;
+    /* justify-content:space-between; */
+    padding: 130px 230px;
+}
+.footer-newslater input[type="email"]{
+    width: 325px;
+    height: 64px;
+    background: #151414;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    outline: none;
+}
+.footer-newslater input::placeholder{
+    font-weight: 400;
+    font-size: 18px;
+    color: #F3F3F3;
+    padding-left: 21px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    color: #FFFFFF;
+}
+.phone{
+   margin-top: 16px;
+   margin-bottom: 32px;
 }
