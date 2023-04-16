@@ -13,7 +13,7 @@
 /*--------------------------------------------*/
 
 main{
-    padding: 0 230px;
+    padding: 0 200px;
 }
 section{
     margin: 130px 0;
@@ -94,4 +94,45 @@ header{
 .banner-desc{
     margin-left: 40px;
     color: #FFFFFF;
+}
+
+
+/*--------------------------------------------*/
+/*Failure section*/
+/*--------------------------------------------*/
+.failures-container{
+    display: flex;
+    align-items: center;
+    gap:40px
+}
+.failure-desc{
+    padding: 0;
+}
+
+.failure-desc > i{
+    padding-right: 10px;
+    color: #16D887;
+}
+
+
+.plans-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.plan-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.plan{
+    text-align: center;
+}
+.plan > span{
+    color: #737272;
+}
+.plan-title{
+    margin-top: 24px;
+    margin-bottom: 16px;
 }
